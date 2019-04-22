@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StatusBarView">
+        <attr name="sbv_shadow_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="AudioRecordButton">
+        <attr name="arb_cancel_distance" format="dimension" />
+        <attr name="arb_normal_text" format="string" />
+        <attr name="arb_recording_text" format="string" />
+        <attr name="arb_cancel_text" format="string" />
+        <attr name="arb_output_file_dir" format="string" />
+        <attr name="arb_record_short_time" format="float" />
+    </declare-styleable>
+</resources>
