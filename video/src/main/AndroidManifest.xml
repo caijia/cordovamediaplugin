@@ -4,6 +4,6 @@
     <application>
         <activity
             android:name=".playVideo.PlayVideoActivity"
-            android:theme="@style/PlayVideoTheme" />
+            android:theme="@style/NoActionBar_Black" />
     </application>
 </manifest>
