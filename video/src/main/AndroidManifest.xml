@@ -1,2 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cj.video" />
+    package="com.cj.video">
+
+    <application>
+        <activity
+            android:name=".playVideo.PlayVideoActivity"
+            android:theme="@style/PlayVideoTheme" />
+    </application>
+</manifest>
