@@ -5,11 +5,17 @@ android {
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 27
+
+        ndk {
+            abiFilters 'armeabi-v7a'
+        }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+
 }
 
 dependencies {
